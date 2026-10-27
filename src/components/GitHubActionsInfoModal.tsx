@@ -34,7 +34,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with: { distribution: 'temurin', java-version: 17, cache: 'gradle' }
-      - run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+      - run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-35" "build-tools;35.0.0"
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: npm install --legacy-peer-deps && npm run build
