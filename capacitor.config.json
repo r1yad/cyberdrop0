@@ -1,0 +1,8 @@
+{
+  "appId": "com.cyberdrop.app",
+  "appName": "CyberDrop",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

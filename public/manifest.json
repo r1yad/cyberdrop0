@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "CyberDrop - Zero-Internet File Share",
+  "short_name": "CyberDrop",
+  "description": "Cross-platform offline peer-to-peer file sharing via Wi-Fi Direct and Bluetooth.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["utilities", "productivity"]
+}

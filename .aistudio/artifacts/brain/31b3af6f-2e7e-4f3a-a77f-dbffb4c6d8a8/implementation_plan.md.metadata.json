@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan to generate actual standalone Windows .exe (via native WebView2 single-file build) and Android .apk (via Capacitor Gradle) directly in GitHub Actions artifacts and releases, along with an in-app installation and execution guide.",
+  "updatedAt":  "2026-10-12T06:20:27.255919178Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

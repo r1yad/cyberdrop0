@@ -1,0 +1,6 @@
+{
+  "name": "CyberDrop - Zero-Internet Cross-Platform File Share",
+  "description": "High-speed offline file and data sharing across Windows and Mobile via Wi-Fi Direct and Bluetooth with zero internet availability.",
+  "requestFramePermissions": ["bluetooth", "clipboard-read", "clipboard-write"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

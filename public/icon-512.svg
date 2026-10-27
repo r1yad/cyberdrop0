@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cyberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#070b12" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="cyberLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#070b12"/>
+  <circle cx="256" cy="256" r="210" fill="url(#cyberGlow)"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#00f0ff" stroke-width="4" stroke-opacity="0.25" stroke-dasharray="12 8"/>
+  <circle cx="256" cy="256" r="130" fill="none" stroke="#00f0ff" stroke-width="4" stroke-opacity="0.4"/>
+  <circle cx="256" cy="256" r="70" fill="none" stroke="#00f0ff" stroke-width="5" stroke-opacity="0.7"/>
+  <path d="M 256 256 L 390 122" stroke="url(#cyberLine)" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="256,156 356,256 286,256 286,376 226,376 226,256 156,256" fill="url(#cyberLine)"/>
+  <circle cx="256" cy="256" r="16" fill="#00f0ff"/>
+</svg>

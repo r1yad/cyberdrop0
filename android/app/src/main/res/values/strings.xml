@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CyberDrop</string>
+    <string name="title_activity_main">CyberDrop</string>
+    <string name="package_name">com.cyberdrop.app</string>
+    <string name="custom_url_scheme">com.cyberdrop.app</string>
+</resources>
